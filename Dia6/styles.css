@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(183, 228, 254);
+    color: white;
+}
+.Content{
+    text-align: center;
+}
+.Categoria{
+    width: 11em;
+    height: 1.8em;
+    border-style: solid;
+    background-color: white;
+    border-color: black;
+}
+table{
+    margin: 2em auto;
+}
+button{
+    border: none;
+    background-color: rgb(41, 44, 82);
+    padding: 0.5em 2em 0.5em 2em;
+    margin-left: 1em;
+    color: white;
+    border-color: black;
+    border-style: solid;
+}
+input{
+    border: none;
+    border-style: solid;
+    height: 2em;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="Content">
+        <h1>Productos</h1>
+        <div class="Product">
+            <h2>Agregar Productos</h2>
+            <form id="AddProducts">
+                
+                <input type="number" id="Id" required placeholder="Id">
+                <input type="text" required id="Name" placeholder="Name">
+                <div class="Categoria">
+                    <select name="Category" id="Category" required placeholder="Category">
+                        <option class="valor1" value="Electronics">Electronics</option>
+                        <option class="valor1" value="Mechanical">Mechanical</option>
+                    </select>
+                </div>
+               
+                
+                <input type="number" name="Price" id="Price" required placeholder="Price">
+                
+                <input type="number" id="QuantityStock" required  placeholder="QuantityStock">
+                <button type="submit">Guardar</button>
+            </form>
+            <table id="Table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>QuantityStock</th>
+                        <th>SupplierId</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="Supplier">
+            <h1>Suppliers</h1>
+            <h2>Add Suppliers</h2>
+            <form id="AddSuppliers">
+                
+                <input type="number" id="IdS" required placeholder="Id">
+                
+                <input type="text" required id="NameS" placeholder="Name">
+                
+                <input type="text" id="NumberPhone" placeholder="NumberPhone">
+                <input type="email" id="Email" placeholder="Email">
+                <input type="text" id="Address" placeholder="Address">
+                <button type="submit">Guardar</button>
+            </form>
+            <table id="TableS">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>NumberPhone</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="Order">
+            <h1>Orders</h1>
+            <h2>Add Orders</h2>
+            <form id="AddOrders"> 
+                
+                <input type="number" id="IdO" required placeholder="Id">
+                
+                <input type="number" required id="ProductID" placeholder="ProductID">
+                
+                <input type="number" id="Quantity" required placeholder="Quantity">
+                <button type="submit">Guardar</button>
+            </form>
+            <table id="TableO">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>ProductID</th>
+                        <th>Quantity</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Delete/Edit</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
