@@ -1,0 +1,26 @@
+
+body{
+    height: 58em;
+    background: linear-gradient(#84b0f1, #ffffff);
+}
+.imag{
+    margin-top: 10em;
+    display: grid;
+    justify-content: center;
+}
+input{    
+    position: relative;
+    height: 3.5em;
+    width: 22em;
+    left: 3.3em;
+    top: -17em;
+    z-index: 2;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.4em;
+    box-shadow: -4px 6px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.atrasAdel{
+    justify-content: center;
+    background-color:azure;
+}

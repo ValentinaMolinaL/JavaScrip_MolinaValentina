@@ -51,7 +51,7 @@ fetch("https://swapi.py4e.com/api/people/1")
       <th scope="row">films:</th>
       <td colspan="2">
       <div class="card text-bg-light mb-3" style="max-width: 18rem;">
-        <div class="card-body">
+        <div class="card-body id="superPelis">
         </div>
       </div>
       </td>
@@ -112,24 +112,19 @@ fetch(mundo)
       </tbody>
     </table>`
 })
-
-
 document.getElementById(`guardaStrucGen`).innerHTML=estructura  
 
-
-})
-
-var pel =(Data.films)
+var peliculas =(Data.films)
 fetch(peliculas)
 .then(pel=> pel.json())
 .then(peliculasT =>{
-  let guardarpelis=document.getElementById("mundos");
-  showfil.innerHTML+=`
+  let guardarpelis=document.getElementById("superPelis");
+  guardarpelis.innerHTML+=`
     <table class="table">
       <thead>
         <tr> 
           <th scope="col">Name:</th>
-          <th scope="col">${Dat.name}</th>
+          <th scope="col">${peliculasT}</th>
         </tr>
       </thead>
       <tbody>
@@ -171,6 +166,7 @@ fetch(peliculas)
         </tr>
       </tbody>
     </table>`
-document.getElementById(`guardaStrucMun`).innerHTML=estructura1  
+document.getElementById(`guardaStrucMun`).innerHTML=guardarpelis  
 })
-});
+})
+
