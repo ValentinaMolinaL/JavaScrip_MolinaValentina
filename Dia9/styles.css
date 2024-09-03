@@ -1,10 +1,17 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap&#39');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+    }
 body{
     height: 58em;
     background: linear-gradient(#84b0f1, #ffffff);
 }
+
 .imag{
-    margin-top: 10em;
+    margin-top: 10em; 
     display: grid;
     justify-content: center;
 }
@@ -13,7 +20,7 @@ input{
     height: 3.5em;
     width: 22em;
     left: 3.3em;
-    top: -17em;
+    top: -21em;
     z-index: 2;
     border-color: black;
     border-style: solid;
@@ -21,6 +28,23 @@ input{
     box-shadow: -4px 6px 1px 4px rgba(0, 0, 0, 0.2);
 }
 .atrasAdel{
-    justify-content: center;
-    background-color:azure;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 42em;
+    left: 27.5em;
+}
+button{
+    background-color: #424242;
+    color: white;
+    margin-left: 3em;
+    width: 8.5em;
+    height: 3em;
+    background-color: rgb(83, 81, 81);
+    color: white;
+    -webkit-box-shadow: -6px 5px 0px 0px rgb(25, 25, 25);
+    -moz-box-shadow: -6px 5px 0px 0px rgba(25, 25, 25);
+    box-shadow: -6px 5px 0px 0px rgba(25, 25, 25);
+    border-radius: 0.5vw;
+    cursor: pointer;
 }
