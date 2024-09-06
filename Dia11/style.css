@@ -1,0 +1,117 @@
+.contGris{
+    background-color: rgb(71, 71, 71);
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+.contBlanco{
+    position: absolute;
+    top: 50vh;
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(244, 242, 242);
+}
+.contDatos{
+    position: relative;
+    margin: -12em auto;
+    width: 50vw;
+    height: 25em;
+    background-color: white;
+}
+.contMitad{
+    width: 100%;
+    height: 9em;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid gray;
+}
+.contImag{
+    position: relative;
+    top: -6em;
+    width: 10em;
+    height: 10em;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+}
+.contImag img{
+    width: 9em;
+    height: 9em;
+    padding: 0.5em;
+    border-radius: 50%;
+}
+.contTxt{
+    margin-top: -6em;
+    text-align: center;
+    line-height: 0.5em;
+}
+.contTxt p{
+    color: gray;
+}
+.contIcono{
+    width: 35em;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.imag1{
+    width: 6em;
+    height: 6em;
+    transform: scale(0.5);
+    transition: all 300ms ease;
+    background-position-y: 6em;
+    background-image: url(card_icons.png);
+}
+
+.imag2{
+    width: 6em;
+    height: 6em;
+    transform: scale(0.5);
+    transition: all 300ms ease;
+    background-position-y: 6em;
+    background-position-x: -8em;
+    background-image: url(card_icons.png);
+}
+
+.imag3{
+    width: 6em;
+    height: 6em;
+    transform: scale(0.5);
+    transition: all 300ms ease;
+    background-position-y: 6em;
+    background-position-x: -16em;
+    background-image: url(card_icons.png);
+}
+
+.imag4{
+    width: 6em;    
+    height: 6em;
+    transform: scale(0.5);
+    transition: all 300ms ease;
+    background-position-y: 6em;
+    background-position-x: -24em;
+    background-image: url(card_icons.png);
+}
+
+.imag5{
+    width: 6em;
+    height: 6em;
+    transform: scale(0.5);
+    transition: all 300ms ease;
+    background-position-y: 6em;
+    background-position-x: -34em;
+    background-image: url(card_icons.png);
+}
+
+.imag6{
+    width: 6em;
+    height: 6em;
+    transform: scale(0.5);
+    transition: all 300ms ease;
+    background-position-y: 6em;
+    background-position-x: -42em;
+    background-image: url(card_icons.png);
+}
+.imag1:hover, .imag2:hover, .imag3:hover, .imag4:hover, .imag5:hover, .imag6:hover  {
+    background-position-y: 0em;
+}
