@@ -1,0 +1,43 @@
+@font-face {
+    font-family: letra;
+    src: url(imagenesPortada/Cascadia.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    font-family: letra;
+    text-align: center;
+}
+.urlFotos{
+    width: 78.9em;
+    height: 200em;
+    display: flex;
+    align-items: center;
+    background-color: beige;
+}
+.imagenes1 img{
+    width: 30em;
+    height: 50em;
+} 
+.imagenes2 img{
+    width: 30em;
+    height: 50em;
+} 
+.imagenes3 img{
+    width: 30em;
+    height: 50em;
+}
+.imagenes4 img{
+    width: 30em;
+    height: 50em;
+}  
+.imagenes5 img{
+    width: 30em;
+    height: 50em;
+} 
+.imagenes6 img{
+    width: 30em;
+    height: 50em;
+} 
