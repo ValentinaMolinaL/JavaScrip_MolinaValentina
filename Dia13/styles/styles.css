@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-image: url(/Dia13/img/fondo-poquer-color-rojo-fondo-costuras-fichas-casino-fichas-espadas-corazones_697711-1037.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content1{
+    width: 100em;
+    height: 58em;
+    display: flex;
+    justify-content:space-evenly;
+}
+.carta1Computer{
+    height:30em;
+    width: 40em;
+    margin-top: 12em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+    border-style: solid;
+    border-color: rgb(139, 4, 4);
+    background: rgba(58, 1, 1, 0.5);
+}
+.carta1Computer img{
+    width: 10vw;
+}
+.carta1Player1 img{
+    width: 10vw;
+    
+}
+.carta1Player1{
+    height:30em;
+    width: 40em;
+    margin-top: 12em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+    border-style: solid;
+    border-color: rgb(139, 4, 4);
+    background: rgba(58, 1, 1, 0.5);
+}
+.mazo img{
+    width: 16vw;
+}
+button{
+    border-style: none;
+    background-color:rgb(114, 19, 19);
+    font-size: 35px;
+    color: #fff;
+
+}
+.shadow__btn {
+    width: 5vw;
+    height: 5vh;
+    padding: 10px 20px;
+    margin-top: 25em;
+    border: none;
+    font-size: 17px;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.10s;
+    transition-property: box-shadow;
+}
+  
+  .shadow__btn {
+    background: rgb(114, 19, 19);
+    box-shadow: 0 0 25px rgb(0, 0, 0);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(2, 0, 0),
+                0 0 25px rgb(2, 0, 0),
+                0 0 50px rgb(2, 0, 0),
+                0 0 100px rgb(2, 0, 0);
+  }
