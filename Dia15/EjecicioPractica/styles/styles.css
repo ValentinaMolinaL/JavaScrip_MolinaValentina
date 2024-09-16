@@ -1,0 +1,50 @@
+@font-face {
+    font-family: fuente;
+    src: url(../storage/Montserrat-VariableFont_wght.ttf);
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.barraSuper{
+    width: 100vw;
+    height: 0vh auto;
+    display: grid;
+    justify-content: center;
+    background-color: #3446cd;
+    font-family: fuente;
+    font-size: 30px;
+}
+.letasSup{
+    text-align: center;
+}
+.contInput{
+    height: 10vh;
+}
+.Buscador{
+    width: 80vw;
+    height: 5vh;
+    border-radius:26px;
+    font-size: 20px;
+}
+
+.caja1{
+    width: 90vw;
+    height: 20vh;
+    margin-top: 2em;
+    margin-left: 5em;
+    display: flex;
+    display: flex;
+    border: 1px solid #3446cd;
+    align-items: center;
+}
+.imagen img{
+    margin: 2em;
+    border-radius: 50%;
+}
+.datos{
+    font-family: fuente;
+}
+.filtro{
+    display: none;
+}
