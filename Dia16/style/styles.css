@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.barra-Super{
+    width: 100vw;
+    height: 30vh;
+    background-color: blue;
+}

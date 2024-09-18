@@ -6,38 +6,69 @@
     margin: 0;
     padding: 0;
 }
+.urlFotos{
+    width: 65em;
+    height: 200em;
+    margin-top: 5em;
+    margin-left: 23em; 
+    display: grid;
+    gap: 5em;
+}
 .titulo{
+    margin-top: 1em;
     font-family: letra;
+    font-size: 30px;
     text-align: center;
 }
-.urlFotos{
-    width: 78.9em;
-    height: 200em;
+.content{
     display: flex;
-    align-items: center;
-    background-color: beige;
+    column-gap: 16em;
 }
 .imagenes1 img{
     width: 30em;
     height: 50em;
+    border-radius: 2em;
+    border-style: solid;
 } 
 .imagenes2 img{
     width: 30em;
     height: 50em;
+    border-radius: 2em;
+    border-style: solid;
 } 
 .imagenes3 img{
     width: 30em;
     height: 50em;
+    border-radius: 2em;
+    border-style: solid;
 }
 .imagenes4 img{
     width: 30em;
     height: 50em;
+    border-radius: 2em;
+    border-style: solid;
 }  
 .imagenes5 img{
     width: 30em;
     height: 50em;
+    border-radius: 2em;
+    border-style: solid;
 } 
 .imagenes6 img{
     width: 30em;
     height: 50em;
+    border-radius: 2em;
+    border-style: solid;
+} 
+.imagenes7 img{
+    width: 30em;
+    height: 50em;
+    border-radius: 2em;
+    border-style: solid;
+} 
+.imagenes8 img{
+    width: 30em;
+    height: 50em;
+    border-radius: 2em;
+    border-style: solid;
 } 
